@@ -1,8 +1,10 @@
-Instruction : 
-    base de donnée : database
-    utilisateur : glpi
-    mot de passe : passwd
+#   GLPI
 
-Connexion:
-    utilisateur : glpi
-    mot de passe : glpi
+### Instruction : 
+ *    **base de donnée : database**
+ *   **utilisateur : glpi**
+ *   **mot de passe : passwd**
+
+### Connexion:
+*    **utilisateur : glpi**
+*    **mot de passe : glpi**
