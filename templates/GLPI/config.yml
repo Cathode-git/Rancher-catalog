@@ -1,0 +1,8 @@
+name: GLPI
+description: |
+  Gestion de parc informatique
+version: 1.0
+category: IT
+maintainer: loic.chauvel@ocea-smart-building.fr
+license: GPLv3
+projectURL: https://hub.docker.com/r/cathode/glpi/
