@@ -1,4 +1,5 @@
-.catalog:
+version: '1'
+catalog:
   name: GLPI
   version: 1.0-experimental
   description: Gestion de parc informatique
