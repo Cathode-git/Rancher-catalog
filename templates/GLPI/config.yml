@@ -1,7 +1,7 @@
 name: GLPI
 description: |
   Gestion de parc informatique
-version: 1.0
+version: v1.0-dev
 category: IT
 maintainer: loic.chauvel@ocea-smart-building.fr
 license: GPLv3
