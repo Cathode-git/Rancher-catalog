@@ -4,12 +4,5 @@
   description: Gestion de parc informatique
   uuid: glpi-0
   minimum_rancher_version: v0.51.0
-  questions:      
-       - variable: glpi_name
-      description: "Nom du service GLPI"
-      label: "Nom du service"
-      type: "string"
-      required: true
-default: "GLPI"
 glpi:
 scale: 1

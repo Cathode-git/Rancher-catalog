@@ -12,6 +12,3 @@ database:
     MYSQL_DATABASE: glpi
     MYSQL_USER: glpi
     MYSQL_PASSWORD: passwd
-    command:
-    - --glpi
-    - "${glpi_name}"
