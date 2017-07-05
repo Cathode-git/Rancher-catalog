@@ -1,0 +1,19 @@
+zabbix:
+  image: monitoringartist/zabbix-xxl:latest
+  links:
+    - zabbix-db:zabbix-db
+  ports:
+    - "1880:80"
+    - "10051:10051"
+  environment:
+    ZS_DBHost: zabbix-db
+    ZS_DBUser: zabbix
+    ZS_DBPassword: passwd
+    XXL_zapix: true
+    XXL_grapher: true
+
+zabbix-db:
+  image: monitoringartist/zabbix-db-mariadb
+  environment:
+    MARIADB_USER: zabbix
+    MARIADB_PASS: passwd

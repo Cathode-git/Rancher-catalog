@@ -1,0 +1,17 @@
+glpi:
+  image: cathode/glpi
+  links:
+    - database:mariadb
+  ports:
+    - "1880:80"
+
+database:
+  image: mariadb
+  environment:
+    MYSQL_ROOT_PASSWORD: passwd
+    MYSQL_DATABASE: glpi
+    MYSQL_USER: glpi
+    MYSQL_PASSWORD: passwd
+    command:
+    - --glpi
+    - "${glpi_name}"
