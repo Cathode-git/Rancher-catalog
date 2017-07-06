@@ -1,8 +1,8 @@
-name: GLPI
+name: ZABBIX SERVER XXL
 description: |
-  Gestion de parc informatique
+  IT Monitoring
 version: v1.0-dev
 category: IT
 maintainer: loic.chauvel@ocea-smart-building.fr
 license: GPLv3
-projectURL: https://hub.docker.com/r/cathode/glpi/
+projectURL: https://hub.docker.com/r/cathode/
