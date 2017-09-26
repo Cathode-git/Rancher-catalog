@@ -1,6 +1,6 @@
 .catalog:
   name: "GLPI"
-  version: "1.0-experimental"
+  version: "1.0-experimental - GLPI 9.1.4"
   description: "Gestion de parc informatique"
   uuid: glpi-0
   minimum_rancher_version: v0.51.0
