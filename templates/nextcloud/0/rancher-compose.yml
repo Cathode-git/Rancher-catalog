@@ -1,4 +1,5 @@
-.catalog:
+version: '2'
+catalog:
   name: nextcloud
   version: "0.0.1- 1.0 experimental"
   description: Cloud modulaire open-source
@@ -20,4 +21,3 @@ services:
   mariadb-data:
     scale: 1
     start_on_create: true
-
