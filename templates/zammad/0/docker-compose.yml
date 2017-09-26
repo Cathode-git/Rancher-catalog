@@ -18,7 +18,7 @@ services:
       - zammad-railsserver
       - zammad-websocket
     ports:
-      - "80:80"
+      - "1885:80"
     restart: always
     volumes:
       - data-zammad:/home/zammad
