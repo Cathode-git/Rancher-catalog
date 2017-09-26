@@ -43,11 +43,11 @@ services:
     labels:
       io.rancher.container.pull_image: always
     links:
-      - elasticsearch
+      - zammad-elasticsearch
       - zammad-postgresql
       - zammad
     depends_on:
-      - elasticsearch
+      - zammad-elasticsearch
       - zammad-postgresql
       - zammad
     restart: always
@@ -57,11 +57,11 @@ services:
     labels:
       io.rancher.container.pull_image: always
     links:
-      - elasticsearch
+      - zammad-elasticsearch
       - zammad-postgresql
       - zammad
     depends_on:
-      - elasticsearch
+      - zammad-elasticsearch
       - zammad-postgresql
       - zammad
     restart: always
