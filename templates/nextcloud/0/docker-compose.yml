@@ -7,7 +7,7 @@ services:
     volumes_from:
       - nextcloud-data
     ports:
-      - ${NEXTCLOUD_PORT}:80
+      - 1884:80
     depends_on:
       - mariadb
     labels:
@@ -27,10 +27,10 @@ services:
   mariadb:
     image: mariadb:10
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASS}
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASS}
+      MYSQL_ROOT_PASSWORD: passwd
+      MYSQL_DATABASE: mariadb
+      MYSQL_USER: nextcloud
+      MYSQL_PASSWORD: passwd
     labels:
       io.rancher.sidekicks: mariadb-data
       io.rancher.container.hostname_override: container_name
