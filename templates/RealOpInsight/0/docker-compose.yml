@@ -1,5 +1,5 @@
 RealOpInsight:
-  image: realopinsightlabs/realopinsight-ultimate
+  image: realopinsightlabs/realopinsight-ultimate:2015r3.2
   ports:
     - "1887:4583"
     - "1888:22"
