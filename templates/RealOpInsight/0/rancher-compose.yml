@@ -1,0 +1,5 @@
+.catalog:
+  name: "RealOpInsight"
+  version: "1.0-experimental - RealOpInsight 2.5.0"
+  description: "Business Activity Monitoring"
+  uuid: RealOpInsight-0

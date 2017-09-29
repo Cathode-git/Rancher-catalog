@@ -1,0 +1,5 @@
+glpi:
+  image: realopinsightlabs/realopinsight-ultimate
+  ports:
+    - "1887:4583"
+    - "1888:22"

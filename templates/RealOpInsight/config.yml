@@ -1,0 +1,6 @@
+name: RealOpInsight
+description: |
+  "BAM : Business Activity monitoring"
+version: "2.5.0 - 1.0 experimental"
+category: BAM
+maintainer: loic.chauvel@ocea-smart-building.fr
