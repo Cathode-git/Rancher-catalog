@@ -1,10 +1,5 @@
-#   GLPI
+#   RealOpInsight
 
 ### Instruction : 
- *    **base de donnée : database**
- *   **utilisateur : glpi**
- *   **mot de passe : passwd**
-
-### Connexion:
-*    **utilisateur : glpi**
-*    **mot de passe : glpi**
+ *    Version de test
+ * Plus d'info apres validation.
