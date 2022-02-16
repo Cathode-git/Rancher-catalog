@@ -3,6 +3,6 @@ description: |
   Gestion de parc informatique
 version: v1.0-dev - GLPI 9.1.4
 category: IT
-maintainer: loic.chauvel@ocea-smart-building.fr
+maintainer: 
 license: GPLv3
 projectURL: https://hub.docker.com/r/cathode/glpi/
